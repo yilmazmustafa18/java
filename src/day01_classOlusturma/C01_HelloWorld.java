@@ -30,6 +30,7 @@ public class C01_HelloWorld {
                 "kod tek parca kabul edilir"
         )
         ;
+        System.out.println("babayigit geçip gitse de unutulmazcl");
         // kod satiri yazilmaya basladiktan sonra ;'e kadar olan kisimn tek satir kabul edilir
 
     }
