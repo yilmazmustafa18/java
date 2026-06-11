@@ -31,7 +31,7 @@ public class C01_HelloWorld {
         )
         ;
         System.out.println("babayigit geçip gitse de unutulmazcl");
-        // kod satiri yazilmaya basladiktan sonra ;'e kadar olan kisimn tek satir kabul edilir
+        // kod satiri yazilmaya basladiktan sonra ;'e kadar olangit kisimn tek satir kabul edilir
 
     }
 

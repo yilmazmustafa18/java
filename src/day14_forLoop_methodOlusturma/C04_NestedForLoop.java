@@ -11,6 +11,8 @@ public class C04_NestedForLoop {
             System.out.print(i*1 + " ");
         }
 
+
+
         System.out.println("");
 
         // bir for loop kullanarak 2 4 6 8 yazdirin
@@ -58,9 +60,9 @@ public class C04_NestedForLoop {
 
         for (int i = 1; i <=4 ; i++) { // outer loop ==> satirlari kontrol eder
 
-            for (int j = 1; j <=4 ; j++) { // inner loop ==> her satirdaki sutunlari
+            for (int j = 1; j <=i ; j++) { // inner loop ==> her satirdaki sutunlari
 
-                System.out.print(  i * j + " "  );
+                System.out.print(  " *"  );
             }
             System.out.println("");
         }
