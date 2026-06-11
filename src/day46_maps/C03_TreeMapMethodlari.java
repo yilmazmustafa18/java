@@ -42,11 +42,7 @@ public class C03_TreeMapMethodlari {
 
         TreeMap<String,Integer> map3 = new TreeMap<>();
 
-        /*
-            Constructor ve data turu TreeMap secildigi icin
-            TreeMap'e eklenen ve parent'i olan Map'de olmayan
-            pekcok ozelligi kullanabiliriz
-         */
+
 
     }
 }
