@@ -62,12 +62,10 @@ public class C04_NestedForLoop {
 
             for (int j = 1; j <=i ; j++) { // inner loop ==> her satirdaki sutunlari
 
-                System.out.print(  " *"  );
+                System.out.print(  " **"  );
             }
             System.out.println("");
         }
-
-
 
     }
 }
