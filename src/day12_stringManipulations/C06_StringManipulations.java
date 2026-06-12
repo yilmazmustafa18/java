@@ -4,10 +4,13 @@ import java.util.Scanner;
 
 public class C06_StringManipulations {
     public static void main(String[] args) {
-
+        char a='a';
+        System.out.println(Character.toString( Character.toUpperCase(a)));
+        Character.toString( Character.toUpperCase(a));
         // Kullanicidan bir String alin,
         // String’in uzunlugu cift sayi ise tam ortasina :) ekleyin,
         // String’in uzunlugu tek sayi ise ortadaki harfi silin ve yerine :( yazdirin.
+
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen bir metin giriniz...");
@@ -19,7 +22,7 @@ public class C06_StringManipulations {
         if (metinUzunlugu % 2 == 0){ // metnin uzunlugu cift sayi
             System.out.println(
                     metin.substring(0,metinUzunlugu/2)  // metnin ilk yarisi
-                    + ":)"
+                    +  ":)"
                     + metin.substring(metinUzunlugu/2)
 
             );
