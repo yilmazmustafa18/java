@@ -22,6 +22,7 @@ public class C04_MethodOlusturma_KucukOlmayaniYazdir {
 
         System.out.println( sayi1<sayi2 ? sayi2 : sayi1); // 44
         int sayi= sayi1<sayi2?sayi2:sayi1;
+
         return sayi;
 
     }
