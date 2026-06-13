@@ -14,7 +14,8 @@ public class C02_SayiToplama {
         // ve girilen uygun olmayan sayiyi sayi adedine ve toplama eklemeyin
 
 
-        Scanner scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
+
         int sayi = 0;
         int toplam = 0;
         int sayac = 0;
