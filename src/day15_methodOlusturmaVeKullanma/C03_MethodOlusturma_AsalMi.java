@@ -1,13 +1,18 @@
 package day15_methodOlusturmaVeKullanma;
 
+import javax.swing.*;
+
 public class C03_MethodOlusturma_AsalMi {
 
     public static void main(String[] args) {
 
         // verilen bir sayi asal ise true, asal degilse false yazdiran bir method olusturun
+        int a = Integer.parseInt(JOptionPane.showInputDialog(null, "sayi giriniz lütfen:"));
+        C03_MethodOlusturma_AsalMi obj= new C03_MethodOlusturma_AsalMi();
+        System.out.println("Girilen sayi asaldır önermesi: "+obj.isPrime(a));
 
-        asalMi(82); // false
-        asalMi(97); // true
+//        asalMi(82); // false
+//        asalMi(97); // true
 
         /*
             method deklarasyonunda () icindeki variable'lara PARAMETRE
@@ -30,16 +35,29 @@ public class C03_MethodOlusturma_AsalMi {
 
     }
 
-    public static void asalMi(int sayi){
+    public static void asalMi(int sayi) {
         boolean asalMi = true;
 
-        for (int i = 2; i < sayi ; i++) {
+        for (int i = 2; i < sayi; i++) {
 
-            if (sayi % i == 0){
+            if (sayi % i == 0) {
                 asalMi = false;
                 break;
             }
         }
         System.out.println(asalMi);
     }
+
+    protected boolean isPrime(int sayi) {
+        for (int i = 2; i < sayi; i++) {
+            if (sayi % i == 0) return false;
+        }
+       if (sayi<2) {
+            return false;
+        }
+        return true;
+
+    }
+
+
 }
