@@ -22,7 +22,7 @@ public class C03_SayininRakamlarToplaminiBulma {
             sum+=a;
             i++;
         }
-
+        System.out.println(Math.pow(2, 5));
         System.out.println("Toplam="+sum);
 
 
