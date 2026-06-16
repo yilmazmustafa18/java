@@ -14,7 +14,12 @@ public class C03_Static_Instance_Variables {
 
 
         C03_Static_Instance_Variables pers1 = new C03_Static_Instance_Variables();
+        for (int i = 0; i < 5; i++) {
 
+            pers1.pIsmi="Mustafa";
+
+        }
+        System.out.println();
         System.out.println(pers1.pAdresi); // Adres atanmadi
         System.out.println(pers1.pIsmi); // isim atanmadi
         System.out.println(pers1.pTelefonu); // Telefon atanmadi
@@ -66,5 +71,9 @@ public class C03_Static_Instance_Variables {
 
 
 
+    }
+
+    protected void setObject(){
+        hAdresi="ALTINDAG";
     }
 }
