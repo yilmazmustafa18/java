@@ -37,5 +37,15 @@ public class C06_ArrayMethodlari {
 
         System.out.println( Arrays.equals(arr3,arr4)); // true
 
+        int[][] army=new int [2][3];
+
+        army[0][1]=1;
+
+        System.out.println(Arrays.deepToString(army));
+        String str="s123";
+        String crypto= str.replaceAll("\\w","*").replaceAll("\\d","*");
+        System.out.println(crypto);q
+
+
     }
 }
