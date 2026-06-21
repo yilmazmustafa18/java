@@ -44,7 +44,7 @@ public class C06_ArrayMethodlari {
         System.out.println(Arrays.deepToString(army));
         String str="s123";
         String crypto= str.replaceAll("\\w","*").replaceAll("\\d","*");
-        System.out.println(crypto);q
+        System.out.println(crypto);
 
 
     }
