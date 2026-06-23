@@ -39,24 +39,23 @@ public class C01_Fibonacci {
 
         List<Integer> fibonacciListesi = new ArrayList<>();
 
-        if (fibonacciSayiAdedi <=0 ){
+        if (fibonacciSayiAdedi <=0 )
             System.out.println("Sayi adedi pozitif olmalidir");
-        } else if (fibonacciSayiAdedi == 1) {
+       else if (fibonacciSayiAdedi==1)
             fibonacciListesi.add(0);
-        } else if (fibonacciSayiAdedi == 2) {
-            fibonacciListesi.add(0);
-            fibonacciListesi.add(1);
-        }else { // istenen fibonacci sayisi adedi 2'den fazla
-
+       else if (fibonacciSayiAdedi==2) {
             fibonacciListesi.add(0);
             fibonacciListesi.add(1);
-
-            for (int i = 2; i < fibonacciSayiAdedi ; i++) {
-
-                fibonacciListesi.add(   fibonacciListesi.get(i-2) + fibonacciListesi.get(i-1)     );
-
-            }
         }
+       else {
+                fibonacciListesi.add(0);
+                fibonacciListesi.add(1);
+                for (int i = 2; i < fibonacciSayiAdedi; i++) {
+
+                    fibonacciListesi.add(fibonacciListesi.get(i - 2) + fibonacciListesi.get(i - 1));
+
+                }
+            }
 
         return fibonacciListesi;
     }
