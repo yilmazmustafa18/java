@@ -1,6 +1,6 @@
 package day34_InheritanceDataTypeKullanimi;
 
-public class C04_AvciKuslar extends C03_Kuslar{
+public class  C04_AvciKuslar extends C03_Kuslar{
     public String hareket = "ucarlar";
     public String beslenme = "et yerler";
     public String pence = "pencelidir";

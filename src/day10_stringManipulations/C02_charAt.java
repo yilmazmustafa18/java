@@ -1,6 +1,6 @@
 package day10_stringManipulations;
 
-public class C02_charAt {
+public class  C02_charAt {
 
     public static void main(String[] args) {
 

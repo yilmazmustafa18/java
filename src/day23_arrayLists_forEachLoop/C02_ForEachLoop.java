@@ -24,6 +24,8 @@ public class C02_ForEachLoop {
             toplam += each;
         }
 
+
+
         System.out.println(toplam); // 16
     }
 }
