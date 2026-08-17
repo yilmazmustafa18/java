@@ -1,6 +1,8 @@
 package day38_interfaces;
 
 public interface I01_Interface {
+
+    int sayi=0;
     /*
         biz interface icinde abstract yazmadan bir method olustursak da
         Java body eklememize izin vermiyor ve
@@ -21,8 +23,13 @@ public interface I01_Interface {
      */
 
     public abstract void method2();
-    abstract void method3();
-    public void method4();
-    void method5();
+
+    public default void measureTemp(){
+        System.out.println("measureTemp");
+    }
+
+    public static void measureHeat(){
+        System.out.println("static measureHeat");
+    }
 
 }

@@ -3,11 +3,15 @@ package day34_InheritanceDataTypeKullanimi;
 import day33_ConstructorCall.C01_Araba;
 import day33_ConstructorCall.C02_Toyota;
 import day33_ConstructorCall.C03_Corolla;
+import day34_InheritanceDataTypeKullanimi.C05_Hayvanlar;
+import day34_InheritanceDataTypeKullanimi.C06_Kuslar;
+import day34_InheritanceDataTypeKullanimi.C07_AvciKuslar;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class C01_DataTypeKullanimindaFarklilik {
+public class  C01_DataTypeKullanimindaFarklilik {
 
     /*
         Hayvallarla ilgili semada
@@ -82,6 +86,11 @@ public class C01_DataTypeKullanimindaFarklilik {
 
         List<String > list1 = new ArrayList<>();
         ArrayList<String > list2 = new ArrayList<>();
+
+        C06_Kuslar yirticiKus1=new C07_AvciKuslar();
+        yirticiKus1.uyur();
+        System.out.println(yirticiKus1.optTemperature);
+        System.out.println(yirticiKus1.minh);
 
     }
 }

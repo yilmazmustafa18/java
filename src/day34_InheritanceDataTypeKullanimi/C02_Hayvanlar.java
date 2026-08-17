@@ -1,6 +1,6 @@
 package day34_InheritanceDataTypeKullanimi;
 
-public class C02_Hayvanlar {
+public class  C02_Hayvanlar {
 
     public String hareket =  "hareket ederler";
     public String solunum = "nefes alirlar";

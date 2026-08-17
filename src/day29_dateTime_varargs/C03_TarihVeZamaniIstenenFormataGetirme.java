@@ -1,5 +1,6 @@
 package day29_dateTime_varargs;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -78,7 +79,9 @@ public class C03_TarihVeZamaniIstenenFormataGetirme {
                  a yazarsak AM veya PM degerini yazar
          */
 
-
+    DateTimeFormatter format11= DateTimeFormatter.ofPattern("d MMM YY");
+    LocalDateTime date= LocalDateTime.now();
+    System.out.println(date.format(format11));
 
 
     }
